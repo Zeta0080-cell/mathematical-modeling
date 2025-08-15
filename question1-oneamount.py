@@ -13,7 +13,6 @@ result = df.groupby('一级品类')['销售数量'].sum().reset_index()
 print("各商品品类的销售数量统计:")
 print(result)
 
-import matplotlib.pyplot as plt
 
 # 设置中文字体（确保系统有支持的中文字体）
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用黑体
